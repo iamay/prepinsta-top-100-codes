@@ -1,4 +1,4 @@
-# prepinsta-top-100-codes
+# top-100-codes
 
 ## Important Codes related to Arrays
       1. Find Largest element in an array
