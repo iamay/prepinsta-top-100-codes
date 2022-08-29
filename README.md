@@ -1,4 +1,4 @@
-# top-50-codes
+# top-50-code-prepinsta
 
 ## Important Codes related to Array
       1. Find Largest element in an array
