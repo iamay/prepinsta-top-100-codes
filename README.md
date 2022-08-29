@@ -1,6 +1,6 @@
-# top-100-codes
+# top-50-codes
 
-## Important Codes related to Arrays
+## Important Codes related to Array
       1. Find Largest element in an array
       2. Find Smallest element in an array
       3. Find the Smallest and largest element in an array
