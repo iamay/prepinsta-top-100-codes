@@ -29,6 +29,8 @@ int main()
 
 // iterative approach using two pointers
 
+
+
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
@@ -61,7 +63,6 @@ int main()
 
 
 // using an extra array 
-
 #include <iostream>
 #include <bits/stdc++.h>
 
@@ -77,7 +78,6 @@ void printArray(int ans[], int n) {
 }
 
 //Function to reverse array using an auxiliary array
-
 void reverseArray(int arr[], int n) {
    int ans[n];
    for (int i = n - 1; i >= 0; i--) {
