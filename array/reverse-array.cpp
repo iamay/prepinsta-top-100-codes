@@ -70,20 +70,20 @@ using namespace std;
 
 //Function to print array
 
-void printArray(int ans[], int n) {
+void printArray(int parr[], int n) {
   cout << "The reversed array is:- " << endl;
    for (int i = 0; i < n; i++) {
-      cout << ans[i] << " ";
+      cout << parr[i] << " ";
    }
 }
 
 //Function to reverse array using an auxiliary array
-void reverseArray(int arr[], int n) {
-   int ans[n];
+void reverseArray(int rarr[], int n) {
+   int parr[n];
    for (int i = n - 1; i >= 0; i--) {
-      ans[n - i - 1] = arr[i];
+      parr[n - i - 1] = rarr[i];
    }
-   printArray(ans, n);
+   printArray(parr, n);
 }
 int main() {
    int n = 5;
