@@ -44,3 +44,32 @@ vector<int> duplicates(int arr[], int n) {
 
        return V;
    }
+
+// OR
+
+
+ 
+
+class Solution{
+    public:
+        long long maxsum = INT_MIN;
+        long long currsum = 0;        
+
+        for(int i = 0;i < n;++i){
+            currsum += arr[i];            
+
+            if(currsum > maxsum)
+            {
+                maxsum = currsum;
+
+            }            
+
+            if(currsum < 0)
+            {
+             currsum = 0;
+            }
+        }    
+
+        return maxsum;        
+    }
+};
